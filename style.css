@@ -1,0 +1,300 @@
+@font-face {
+	font-family: "Party Business";
+	src: url("http://bricej3D.fr/wildcodeschool/integration/partybusiness.tff") format ("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+	font-family: "Aniron";
+	src: url("http://bricej3D.fr/wildcodeschool/integration/anirm___.tff") format ("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+	font-family: "Tengwar Cursive";
+	src: url("http://bricej3D.fr/wildcodeschool/integration/Tengwarc.woff") format ("woff"),
+    url("http://bricej3D.fr/wildcodeschool/integration/Tengwarc.tff") format ("truetype"),
+    url("http://bricej3D.fr/wildcodeschool/integration/Tengwarc.svg#TengwarCursive") format("svg"),
+    url("http://bricej3D.fr/wildcodeschool/integration/Tengwarc.eot") format("eot");
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  background-image:url('http://bricej3D.fr/wildcodeschool/integration/bg_dark.png');
+}
+section{
+  padding:0px 20px;
+}
+.fullscreen{
+  padding:0px;
+}
+.titre{
+  font-family: "Aniron";
+  font-size:1em;
+}
+.menu{
+  font-family: "Aniron";
+  font-size:1em;
+}
+.titre::after, .titre::before{
+  content:"ij";
+  font-family:"Tengwar Cursive";
+  font-size:4em;
+  color:#F50;
+  padding:0px 20px;
+}
+.titre-small{
+  font-size:0.7em;
+}
+.formulaire{
+  font-family: "Aniron";
+  font-size:0.7em;
+}
+.texte{
+  font-family:"Party Business";
+  font-size:2em;
+}
+.symbole{
+  font-family:"Tengwar Cursive";
+}
+
+body hr{
+  width:50vw;
+  background-image:url('http://bricej3D.fr/wildcodeschool/integration/bg_dark.png');
+  border: 4px solid #F50;
+  margin-top:0px;
+  margin-bottom:0px;
+  transform:skew(-30deg);
+  z-index:15;
+}
+.container-fluid{
+  padding:0px;
+}
+
+.section-white{
+  margin-top:0px;
+  background-image:url('http://bricej3D.fr/wildcodeschool/integration/bg_light.png');
+  padding-bottom:20px;
+}
+
+.section-black{
+  margin-top:0px; 
+  color:#FFF;
+  padding-bottom:20px;
+}
+.container-fluid{
+  padding:0px;
+}
+
+.menu .navbar-collapse{
+	background-color:#F50;
+  margin:0px;
+  padding-right:0px;
+}
+
+.navbar-default .navbar-collapse .navbar-nav li a{
+	color:#FFF;
+  padding: 20px 20px 0px 20px;
+}
+
+.navbar-default .navbar-collapse .navbar-nav li::after{
+  content:"|";
+  color:#FFF;
+  position:relative;
+  bottom:20px;
+}
+
+.navbar-default .navbar-collapse .navbar-nav li:hover a{
+	color:#FFF;
+	text-decoration:underline;
+}
+
+.carousel{
+  max-height:50vw;
+}
+
+.carousel .carousel-caption{
+  bottom:15vw;  
+}
+
+.carousel .carousel-caption h1{
+  font-size:2em;
+}
+.carousel .carousel-caption p{
+  font-size:1em;
+}
+
+.nav-pills a{
+  color:#888; 
+}
+.section-white .nav-pills li.active a{
+  background-color:transparent;
+  color:#F50; 
+  text-decoration:underline;
+}
+.section-white .nav-pills li a:hover{
+  background-color:transparent;
+  color:#F50;
+}
+
+
+.fellows .wanted{
+  margin:0px 20px;
+  padding:0px;
+  border: 4px solid black;
+  border-radius: 0px;
+}
+
+
+.wanted img{ /* définition des infos de l'image */
+	opacity:0.5;
+  filter: contrast(100%);
+  width:100%;
+}
+
+.wanted:hover img{
+	opacity:1;
+	filter: alpha(opacity=100);
+  /* For IE8 and earlier */
+}
+.wanted .caption-hover{
+  position:absolute;
+  width: 85%;
+  top:0px;
+}
+
+.wanted .message{ /*définition du message */
+  position:relative;
+  margin:10px;
+	padding:10px;
+	background-color:#FFF;	
+	color:#333;
+	text-align:center;
+	border-radius: 10px;
+	opacity:0.8;
+}
+
+.wanted:hover .message{ /*le message disparait */
+	opacity:0;
+}
+.wanted .dead-nom{
+  color:#FFF;
+  text-decoration:line-through;
+  text-decoration-color:#F50;
+  background:transparent;
+}
+.wanted .dead-message{
+  color:#F50;
+  background:transparent;
+}
+.wanted .text-under{ /*définition du message */
+  min-height:100px;
+  margin:0px;
+  padding:0px;
+	background-color:#000;	
+	color:#FFF;
+}
+
+.wanted h2{ /* définition du nom */
+  position:relative;
+	display:inline;
+	top:9vw;
+	color:#FFF;
+	text-align:center;
+  font-size:3em;
+}
+
+.wanted:hover h2{ /*le nom part en bas et en petit */
+	top:15vw;
+	font-size:2em;
+}
+
+.reward{ /*couleur du reward*/
+	color:#F70;
+}
+
+.section-black button{
+  color:#F50;
+  padding:20px 40px;
+  transform:skew(-30deg);
+}
+button .skewed-text{
+  transform:skew(30deg);
+  display:block;
+}
+
+
+.hunters .nom-hunter {
+  color:#F50;
+}
+
+.hunters a {
+  color:#000;
+  text-decoration:underline;
+}
+
+.hunters a:hover {
+  color:#F50;
+  text-decoration:underline;
+}
+.panel-default{
+  border:0px;
+  border-radius:10px 10px 0px 0px;
+  border-bottom:4px solid #F50;
+  margin:30px;
+  color:#333;
+}
+.panel-default .table-top{
+  background-color:#F50;
+  font-family: "Aniron";
+  font-size:1em;
+  color:#FFF;
+  border-radius:10px 10px 0px 0px;
+  border:0px;
+}
+
+.table{
+  font-size:1em;
+}
+
+.table th{
+  color:#333;
+}
+
+.table tr{
+  color: #666;
+}
+.auteur{
+  color:#666;
+}
+.infos{
+  color:#F50;
+  font-family: "Aniron";
+}
+.section-white button{
+  color:#F50;
+  font-size:0.7em;
+  padding:20px 40px;
+  transform:skew(-30deg);
+  background-color:#333;
+}
+.input{
+  width:100%;
+  color:#333;
+  margin:10px;
+}
+.select{
+  color:#888;
+  font-size:1em;
+}
+.form-control{
+  margin:10px;
+}
+
+footer{
+  background-color:#F50;
+}
+footer a{
+  color:#FFF;
+  font-family: "Aniron";
+}
