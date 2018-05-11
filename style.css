@@ -19,9 +19,7 @@
   font-weight: normal;
   font-style: normal;
 }
-body{
-  background-image:url('http://bricej3D.fr/wildcodeschool/integration/bg_dark.png');
-}
+
 section{
   padding:0px 20px;
 }
@@ -30,18 +28,11 @@ section{
 }
 .titre{
   font-family: "Aniron";
-  font-size:1em;
+  font-size:2em;
 }
 .menu{
   font-family: "Aniron";
   font-size:1em;
-}
-.titre::after, .titre::before{
-  content:"ij";
-  font-family:"Tengwar Cursive";
-  font-size:4em;
-  color:#F50;
-  padding:0px 20px;
 }
 .titre-small{
   font-size:0.7em;
@@ -122,6 +113,10 @@ body hr{
 }
 .carousel .carousel-caption p{
   font-size:1em;
+}
+.anneaux-gris{
+  margin:50px;
+  padding-left: 250px;
 }
 
 .nav-pills a{
